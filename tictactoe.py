@@ -45,7 +45,7 @@ def printtheboard(board):  #the given function prints the board onto the screen,
     print(board['7'] + ' |' + board['8'] + ' |' + board['9']+"                                "+demo['7'] + ' |' + demo['8'] + '|' + demo['9'])
 
 
-def game(player1,player2):
+def game(player1,player2): #the function manages the game logic, and has conditions for wins and draws, it return's the winning player's name, when the game is a draw, it returns "TIE"
     turn = 'X'
     count = 0
     currentplayer=player1
